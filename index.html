@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Naruto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,600;1,700;1,900&family=Chakra+Petch:ital,wght@1,400;1,600;1,700&family=Fira+Code:wght@300;400;700&family=Tajawal:wght@400;500;900&family=Teko:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/naruto2-138.png" alt="Logo Naruto">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="naruto" data-name="Naruto" data-description="Ele sonha em se tornar Hokage, ele tem o poder da raposa de 9 caldas. Quando o chakra da raposa é liberado, uma aura em forma de raposa envolve Naruto">
+                    <img src="./src/imagens/card-naruto.jpg" alt="Personagem Naruto">
+                </li>
+                <li class="personagem" id="sakura" data-name="Sakura" data-description="Ela possui a grande habilidade de ninja médica e de esquiva. Ela é responsável por amenizar o sofrimento de seus companheiros.">
+                    <img src="./src/imagens/card-sakura.jpg" alt="Personagem Sakura">
+                </li>
+
+                <li class="personagem" id="sasuke" data-name="Sasuke" data-description="Ele é muito habilidoso nas artes ninjas e nas técnicas de seu clã que envolvem golpes com armase sopros de fogo além de técnica visual sharingan. Ele é capaz de invocar cobrase pássaros">
+                    <img src="./src/imagens/card-sasuke.jpg" alt="Personagem Sasuke">
+                </li>
+                <li class="personagem" id="kakashi" data-name="Kakashi" data-description="Ele é conhecido como o ninja copiador que é uma das suas melhores habilidades, ele também possui o poder do sharingan, além de ser muito habilidoso nas artes ninja.">
+                    <img src="./src/imagens/card-kakashi.jpg" alt="Personagem Kakashi">
+                </li>
+                <li class="personagem" id="tsunade" data-name="Tsunade" data-description="Ela foi uma das Sannin lendárias, é a hokage da vila da folha, com grandes habilidades destacando-se ninjutsu, taijutsu além de ser excelente ninja médica.">
+                    <img src="./src/imagens/card-tsunade.jpg" alt="Personagem Tsunade">
+                </li>
+                <li class="personagem" id="hinata" data-name="Hinata" data-description="Ela se desta por conseguir acumular chakra em ambas as mãoes para atacar pontos vitais de seus inimigos.">
+                    <img src="./src/imagens/card-hinata.jpg" alt="Personagem Hinata">
+                </li>
+                <li class="personagem" id="shikamaru" data-name="Shikamaru" data-description="Ele possui a habilidade do controle da sombra, podendo controlar o inimo a distância.">
+                    <img src="./src/imagens/card-shikamaru.jpg" alt="Personagem Shikamaru">
+                </li>
+                <li class="personagem" id="Jiraya" data-name="Jiraya" data-description="ELe é conhecido como o sábio dos sapos por seu jutsu para invocá-los, é autor de romances adultos se auto denominando super pervertido. Suas habilidades envolvem Rasengan, ninjutsu e taijutsu, além de usar o cabelo para atacar seus inimigos.">
+                    <img src="./src/imagens/card-jiraya.jpg" alt="Personagem Jiraya">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-naruto.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Naruto</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Naruto é um jovem que sonha em se tornar Hokage, ele é o único que tem o poder da raposa de 9 caldas. Quando o chakra da raposa é liberado uma aura em forma de raposa envolve Naruto.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
